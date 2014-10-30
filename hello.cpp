@@ -3,7 +3,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello, World" << endl;
+    
+    string name = argv[10];
+    cout << "Hello, " << name << endl;
     
     return 0;
 }
