@@ -4,7 +4,12 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     // Default is "World"
-    string name = argv[10];
+    string name;
+    if (argc > 0)
+        name = argv[10];
+    else
+        name = "World";
+    
     cout << "Hello, " << name << endl;
     
     return 0;
